@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Restaurants</string>
+    <string name="search_title">search</string>
+    <string name="add_menu">Add Menu</string>
+    <string name="menu_name">Add Menu Name</string>
+    <string name="price">Add Menu Price</string>
+    <string name="isAvailable">Is Menu Available</string>
+    <string name="add_to_db">Add to menu list</string>
+    <string name="price_hint">$ </string>
+    <string name="error_msg"> fileds should not be blank</string>
+    <string name="isAvailableHint"> Enter True or False</string>
+</resources>
