@@ -53,7 +53,6 @@ public class MenuListActivity extends AppCompatActivity implements SearchView.On
 
         RecyclerView recyclerView = findViewById(R.id.listview);
         addButton = findViewById(R.id.add_menu_btn);
-        MenuRoomDatabase db = MenuRoomDatabase.getDatabaseInstance(MenuListActivity.this);
         // Pass results to ListViewAdapter Class
         recycleViewAdapter = new RecycleViewAdapter(this);
         menuViewModel = ViewModelProviders.of(this).get(MenuViewModel.class);
